@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: font-size 1s;
+	font-weight: normal;
+}
+body {
+	font-family: sans-serif;
+	background-color: hsl(0deg, 100%, 90%);
+	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+h1 {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+p {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 10px 20px;
+	transition: font-size 1s, transform 1s;
+	display: flex;
+	align-items: center;
+}
+a:hover {
+	background-color: white;
+	transform: scale(2);
+}
+a:active {
+	transform: scale(0.5) rotate(180deg);
+}

@@ -21,6 +21,7 @@ body {
 	height: auto;
 }
 
+/* GET RID OF THE ABSOLUTE POSITIONING */
 h1 {
 	text-align: center;
 	margin: 10px auto;

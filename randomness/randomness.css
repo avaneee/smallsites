@@ -75,3 +75,23 @@ h2{
 	cursor: pointer;
 }
 
+nav{
+	display: flex;
+	gap: 20px;
+	flex-direction: row;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	transition: scale .3s, rotate .4s;
+	}
+
+a:hover{
+	scale: 1.09;
+	font-style: italic;
+}
+
+a:active{
+	rotate: 30deg;
+}

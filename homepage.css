@@ -17,7 +17,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	background-color: hsl(0deg, 100%, 90%);
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	height: 100dvh; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -58,5 +58,5 @@ a:hover {
 	transform: scale(1.09);
 }
 a:active {
-	transform: scale(0.5) rotate(180deg);
+	transform: scale(0.5) rotate(98deg);
 }

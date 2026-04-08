@@ -5,6 +5,9 @@
 }
 body {
 	font-family: sans-serif;
+	background-image: url("texture2.png");
+	background-position: center;
+	background-size: cover;
 	background-color: hsl(288deg, 100%, 90%);
 	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
 	display: flex;

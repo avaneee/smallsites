@@ -3,8 +3,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@font-face {
+		font-family: 'Imposs'; 
+		src: url('/imposs.woff') format('woff');
+}
+
 body {
-	font-family: sans-serif;
+	font-family: serif;
+	background-image: url("texture3.png");
+	background-position: center;
+	background-size: cover;
 	background-color: hsl(144deg, 100%, 90%);
 	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
 	display: flex;
@@ -15,4 +24,81 @@ body {
 .container {
 	line-height: 1em;
 	text-align: center;
+	font-size: 30px;
 }
+
+h1 {
+	text-align: center;
+	font-family: 'Imposs';
+	margin: 10px auto;
+	position: relative;
+	top: 30px;
+	padding: 1%;
+	font-size: 38px;
+	font-style: normal;
+}
+
+h2{
+	text-align: center;
+	margin: 10px auto;
+	position: relative;
+	top: 7px;
+	font-size: 22px;
+	text-decoration: none;
+	font-weight: 10;
+	font-family: 'Imposs';
+
+}
+
+/* h1 {
+	text-align: center;
+	margin: 10px auto;
+	position: relative;
+	top: 30px;
+	padding: 1%;
+	font-size: 20px;
+	font-style: normal;
+}
+
+h2{
+	text-align: center;
+	margin: 10px auto;
+	position: relative;
+	top: 3px;
+	padding: 1%;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 10;
+} */
+
+.button{
+	color: black;
+	font-family: serif;
+	font-style: italic;
+	padding: 12px;
+	border-radius: 20px;
+	border: 1.5px solid rgba(0, 0, 0, 0);
+	transition: .2s;
+	background-color: rgba(255, 255, 255, 0.639);
+}
+
+.button:hover{
+	scale: 1.03;
+	background-color: rgba(255, 255, 255, 0.818);
+	cursor: pointer;
+
+	/* font-weight: 1000; */
+}
+
+/* .lovestory, .sweetcaroline, .iris {
+	display: none;
+} */
+
+.lovestory:active{
+	opacity: 100;
+	line-height: 1em;
+	text-align: center;
+	font-size: 30px;
+	opacity: 0;
+}
+

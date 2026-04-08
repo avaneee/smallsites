@@ -5,9 +5,16 @@
 }
 
 /* change the main font? */
+@font-face {
+		font-family: 'Imposs'; 
+		src: url('/imposs.woff') format('woff');
+}
 
 body {
 	font-family: serif;
+	background-image: url("texture4.png");
+	background-position: center;
+	background-size: cover;
 	background-color: hsl(82, 87%, 91%);
 	height: 100dvh;
 	display: flex;
@@ -25,20 +32,22 @@ body {
 h1 {
 	text-align: center;
 	margin: 10px auto;
-	position: absolute;
+	position: relative;
 	top: 30px;
 	padding: 1%;
+	font-family: 'Imposs';
 	font-size: 20px;
 	font-style: normal;
 }
 
 h2{
+	font-family: 'Imposs';
 	text-align: center;
 	margin: 10px auto;
-	position: absolute;
-	top: 60px;
+	position: relative;
+	top: 5px;
 	padding: 1%;
-	font-size: 20px;
+	font-size: 15px;
 	text-decoration: none;
 	font-weight: 10;
 }

@@ -5,8 +5,17 @@
 	transition: font-size 1s;
 	font-weight: normal;
 }
+
+@font-face {
+		font-family: 'Imposs'; 
+		src: url('/imposs.woff') format('woff');
+}
+
 body {
-	font-family: sans-serif;
+	font-family: 'Imposs';
+	background-image: url("/texture5.png");
+	background-position: center;
+	background-size: cover;
 	background-color: hsl(0deg, 100%, 90%);
 	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
 	display: flex;
@@ -35,18 +44,18 @@ nav {
 	justify-content: center;
 }
 a {
+	font-family: serif;
 	text-decoration: none;
 	color: black;
-	border: 1px solid black;
-	border-radius: 50%;
-	padding: 10px 20px;
+	padding: 5px 10px;
+	border-radius: 10px;
 	transition: font-size 1s, transform 1s;
 	display: flex;
 	align-items: center;
 }
 a:hover {
-	background-color: white;
-	transform: scale(2);
+	background-color: rgba(255, 255, 255, 0.331);
+	transform: scale(1.09);
 }
 a:active {
 	transform: scale(0.5) rotate(180deg);

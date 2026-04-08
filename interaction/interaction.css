@@ -3,12 +3,32 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@font-face {
+		font-family: 'Imposs'; 
+		src: url('/imposs.woff') format('woff');
+}
+
 body {
 	font-family: sans-serif;
+	background-image: url("texture1.png");
+	background-position: center;
+	background-size: cover;
 	background-color: hsl(216deg, 100%, 90%);
 	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Imposs';
+	margin: 10px auto;
+	position: relative;
+	top: 30px;
+	padding: 1%;
+	font-size: 38px;
+	font-style: normal;
 }

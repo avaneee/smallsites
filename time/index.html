@@ -7,8 +7,23 @@
 	<link rel="stylesheet" href="time.css">
 </head>
 <body>
-	<div class="container"></div>
+	<h1>karaoke time!</h1>
+	<h2>pick a song</h2>
+	<br>
+	<!-- put these in a flex box and place them in a row? or a grid maybe can do -->
+	<div>
+		<button class ="button"onclick="getSong('lovestory');">Love Story by Taylor Swift</button>
+		<button class ="button" onclick="getSong('sweetcaroline');">Sweet Caroline by Neil Diamond</button>
+		<button class ="button" onclick="getSong('iris');">Iris by The Goo Goo Dolls</button>
+	</div>
+	<br><br>
+
+	<div class="lovestory"></div>
+	<div class="iris"></div>
+	<div class="sweetcaroline"></div>
 
 	<script src="time.js"></script>
 </body>
 </html>
+
+<!-- many things need to be fixed nothing rellay works rn, need the karaoke to show up on clicking the button, so it needs to be able to segragate the timing function and only start the lag once its been clicked -->

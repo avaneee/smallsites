@@ -1,13 +1,18 @@
-// let container = document.querySelector('.container');
-// let numberOfInteractions = 0;
-// function runAway() {
-// 	container.style.transform = `translate(${Math.random()*100-50}vw, ${Math.random()*100-50}vh)`;
-// 	numberOfInteractions++;
-// 	if (numberOfInteractions > 10) {
-// 		container.innerText = "AHHHHHH";
-// 	}
-// 	if (numberOfInteractions > 20) {
-// 		container.innerText = "STOP IT STOP IT STOOOOOP";
-// 	}
-// }
-// container.addEventListener('mouseenter', runAway)
+// src="http://cdnjs.com/libraries/tone" 
+
+let playButton = document.getElementById("play");
+
+// connecting to speakers
+let synth = new Tone.Synth().toDestination();
+
+
+playButton.addEventListener("click", () => {
+    if (Tone.context.state !== "running"){
+        Tone.start();
+    }
+    synth.triggerAttackRelease("C3","8n"); 
+});
+
+
+// tutorial on yt: https://www.youtube.com/watch?v=7ZhbKclhDf4
+

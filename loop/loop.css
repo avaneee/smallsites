@@ -5,11 +5,11 @@
 }
 body {
 	font-family: sans-serif;
-	background-image: url("texture2.png");
+	background-image: url("../texture4.png");
 	background-position: center;
 	background-size: cover;
 	background-color: hsl(288deg, 100%, 90%);
-	height: 100dvh; /* more info about dvh here: https://web.dev/blog/viewport-units */
+	height: 100dvh; 
 	display: flex;
 	flex-direction: column;
 	align-items: center;

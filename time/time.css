@@ -11,7 +11,7 @@
 
 body {
 	font-family: serif;
-	background-image: url("texture3.png");
+	background-image: url("../texture4.png");
 	background-position: center;
 	background-size: cover;
 	background-color: hsl(144deg, 100%, 90%);

@@ -8,7 +8,7 @@
 
 @font-face {
 		font-family: 'Imposs'; 
-		src: url('/imposs.woff') format('woff');
+		src: url('imposs.woff') format('woff');
 }
 
 body {

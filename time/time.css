@@ -71,6 +71,11 @@ h2{
 	font-weight: 10;
 } */
 
+.all-b{
+	display: flex;
+	gap:30px;
+	
+}
 .button{
 	color: black;
 	font-family: serif;
@@ -94,13 +99,13 @@ h2{
 	display: none;
 } */
 
-.lovestory:active{
+/* .lovestory:active{
 	opacity: 100;
 	line-height: 1em;
 	text-align: center;
 	font-size: 30px;
 	opacity: 0;
-}
+} */
 
 nav{
 	display: flex;

@@ -2,7 +2,12 @@ let container = document.querySelector('.container');
 
 let images = [
     "cd1.png",
-    "cd2.png"
+    "cd2.png",
+    "cd3.png",
+    "cd4.png",
+    "cd5.png",
+    "cd6.png",
+    "cd7.png"
 ];
 
 let rotations = [20, 30, 8, 10, 5]

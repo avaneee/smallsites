@@ -42,6 +42,27 @@ body {
 	font-size: 15px;
 }
 
+.btn {
+	color: black;
+	font-family: serif;
+	padding: 6px;
+	border-radius: 15px;
+	border: 1.5px solid rgba(0, 0, 0, 0);
+	transition: .2s;
+	background-color: rgba(255, 255, 255, 0.639);
+}
+
+.btn:hover{
+	scale: 1.03;
+	background-color: rgba(255, 255, 255, 0.818);
+	cursor: pointer;}
+
+.btn:active{
+	scale: 1.03;
+	background-color: rgba(0, 0, 0, 0.749);
+	color: white;
+	cursor: pointer;}
+
 h1 {
 	text-align: center;
 	font-family: 'Imposs';

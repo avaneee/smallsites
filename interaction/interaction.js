@@ -1,19 +1,15 @@
 // src="http://cdnjs.com/libraries/tone" 
 
+// with help from this tutorial on yt: https://www.youtube.com/watch?v=7ZhbKclhDf4
+
+
 let playButton = document.getElementById("play");
 
 // connecting to speakers
 let synth = new Tone.Synth().toDestination();
 
-// older code
-// playButton.addEventListener("click", () => {
-//     if (Tone.context.state !== "running"){
-//         Tone.start();
-//     }
-//     synth.triggerAttackRelease("C3","8n"); 
-// });
-
 // mapping keyboard keys to their notes
+// made an object where each key on the keyboard relates to a specific note
 let keyMap = {
     "1": "C3",
     "2": "D3",
@@ -40,6 +36,4 @@ document.addEventListener("keydown", (event) => {
         synth.triggerAttackRelease(keyMap[key], "8n");
     }
 });
-
-// tutorial on yt: https://www.youtube.com/watch?v=7ZhbKclhDf4
 
